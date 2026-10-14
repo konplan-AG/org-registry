@@ -1,0 +1,8 @@
+{
+  "allowedMcpServers": [
+    { "name": "Power BI Modeling MCP" }
+  ],
+  "deniedMcpServers": [
+    { "command": "*filesystem*" }
+  ]
+}
