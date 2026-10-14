@@ -2,9 +2,13 @@
   "servers": [
     {
       "name": "Power BI Modeling MCP",
-      "description": "Erlaubter Server für Power BI Modellierung",
-      "url": "https://dein-mcp-server-pfad.com",
-      "transport": "sse"
+      "description": "Lokaler MCP Server zur Authorisierung und Modellierung von Power BI Modellen",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/powerbi-modeling-mcp"
+      ]
     }
   ]
 }
