@@ -9,7 +9,7 @@
         "-y",
         "@microsoft/powerbi-modeling-mcp",
         "--start",
-        "--accepteula"
+        "--accept-eula"
       ]
     }
   ]
