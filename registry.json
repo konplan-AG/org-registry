@@ -7,7 +7,9 @@
       "command": "npx",
       "args": [
         "-y",
-        "@microsoft/powerbi-modeling-mcp"
+        "@microsoft/powerbi-modeling-mcp",
+        "--start",
+        "--accepteula"
       ]
     }
   ]
